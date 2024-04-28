@@ -79,13 +79,23 @@
       border: 1px solid #aaa;
       border-radius: 5px;
       padding: 5px;
-
     }
-    .overall-div-home{
-      height: 500px;
+    
+    .overall-div-home {
       border: 1px solid #aaa;
       padding: 10px;
+      display: flex;
     }
+
+    .for-request, .for-payBill, .for-appointment {
+      text-align: center;
+      margin: auto;
+    }
+
+    .request-section, .payBill-section, .appointment-section {
+      margin: auto;
+    }
+
 
     /* Announcement section */
     .announcement-section {
@@ -192,6 +202,7 @@
 
     /* Request section */
     .request-section {
+      overflow: scroll;
       margin-right: 20px;
       height: 380px;
       width: 380px;
@@ -249,11 +260,6 @@
 
     }
 
-     .for-payBill{
-      float: right;
-      margin-top: -468px;
-    }
-
     .payBill-section {
     display: flex;
     flex-direction: column;
@@ -263,9 +269,7 @@
   }
 
   .payBill-section img {
-    width: 50px;
-    height: 50px;
-    margin-left: 90px;
+    width: 200px;
   }
 
   .payBill-section label {
@@ -278,10 +282,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
   }
- .payBill-section img {
-    width: 140px;
-    height: 140px;
-  }
+
   .payBill-section input[type="submit"] {
     padding: 10px 20px;
     background-color: #007bff;
@@ -293,8 +294,7 @@
 
 
      /* Appointment section */
-    .appointment-section {
-      margin-left: 470px;
+    .appointment-section {      
       height: 380px;
       width: 380px;
       border: 1px solid #aaa;
@@ -311,10 +311,6 @@
       margin-bottom: 10px;
       padding: 10px;
 
-    }
-
-     .for-appointment{
-        margin-top: -510px;
     }
 
     .appointment-div {
@@ -388,18 +384,15 @@
     display: flex;
     margin-bottom: 16%;
   }
-
-  img{
-    width: 60px;
-    height: 60px;
-    margin: 0 auto;
-    padding-left: 7%;
-    padding-top: 7%;
-    margin-left: 7%;
-  }
  
-  
-  
+  #tanod {
+    display: flex;
+  }
+
+  #tanod img {
+    margin: auto;
+  }
+    
   .comForm {
     max-width: 350px;
     margin: 0 auto;
