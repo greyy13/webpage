@@ -1,3 +1,4 @@
+
  body{
   background-color: white;
  }
@@ -174,8 +175,8 @@
     /* Advisory section */
     .advisory-section {
       margin-left: 90px;
-      height: 400px;
-      width: 500px;
+      height: 700px;
+      width: 600px;
       border: 1px solid #aaa;
       padding: 10px;
       background-color: #f0f0f0;
@@ -186,8 +187,8 @@
     /* Event section */
     .communityUpdate-section {
       margin-right: 90px;
-      height: 400px;
-      width: 500px;
+      height: 700px;
+      width: 600px;
       border: 1px solid #aaa;
       padding: 10px;
       background-color: #f0f0f0;
@@ -197,7 +198,7 @@
     
     .for-communityUpdate{
       float: right;
-      margin-top: -510px;
+      margin-top: -815px;
     }
 
     /* Request section */
@@ -471,7 +472,7 @@
     cursor: pointer;
   }
 
-  textarea{
+  #textarea{
     background-color: white;
     padding: 30px;
     border-radius: 5px;

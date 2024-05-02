@@ -97,3 +97,15 @@ function closeFeedbacks() {
     var overlay = document.getElementById("FeedbacksOverlay");
     overlay.style.display = "none";
   }
+  // script.js
+
+function openMessage() {
+    var overlay = document.getElementById("MessageOverlay");
+    overlay.style.display = "flex";
+}
+
+function closeMessage() {
+    var overlay = document.getElementById("MessageOverlay");
+    overlay.style.display = "none";
+}
+
